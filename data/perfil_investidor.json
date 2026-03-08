@@ -2,16 +2,16 @@
   "nome": "João Silva",
   "idade": 32,
   "profissao": "Analista de Sistemas",
-  "renda_mensal": 5000.00,
-  "perfil_investidor": "moderado",
-  "objetivo_principal": "Construir reserva de emergência",
-  "patrimonio_total": 15000.00,
-  "reserva_emergencia_atual": 10000.00,
+  "renda_mensal": 2000.00,
+  "meta_gastos_mensais": "moderado",
+  "objetivo_principal": "Gastar até no máximo 90% da renda total",
+  "patrimonio_total": 10000.00,
+  "reserva_emergencia_atual": 5000.00,
   "aceita_risco": false,
   "metas": [
     {
-      "meta": "Completar reserva de emergência",
-      "valor_necessario": 15000.00,
+      "meta": "Gastar menos que 90%",
+      "gasto_máximo": 1800.00,
       "prazo": "2026-06"
     },
     {
