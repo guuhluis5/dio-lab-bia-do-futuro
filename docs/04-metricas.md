@@ -1,6 +1,6 @@
 # Avaliação e Métricas
 
-## Como Avaliar seu Agente
+## Como Avzaliar seu Agente
 
 A avaliação pode ser feita de duas formas complementares:
 
@@ -26,25 +26,32 @@ A avaliação pode ser feita de duas formas complementares:
 
 Crie testes simples para validar seu agente:
 
-### Teste 1: Consulta de gastos
+### Teste 1: Consulta de gastos por categoria
 - **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resposta esperada:** O agente deve consultar os registros de despesas e informar o valor total gasto na categoria alimentação, podendo também detalhar alguns exemplos de gastos.
+- **Resultado:** [x] Correto  [ ] Incorreto
 
-### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+### Teste 2: Sugestão para melhorar controle de gastos
+- **Pergunta:** "Estou gastando muito com delivery. O que posso fazer para economizar?"
+- **Resposta esperada:** O agente deve dar dicas práticas de controle financeiro, como:
+
+- reduzir pedidos de delivery
+- definir um limite mensal
+- cozinhar mais em casa
+- acompanhar a categoria alimentação no controle financeiro.
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
-- **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Quem ganhou a Copa do Mundo de 2022?"
+- **Resposta esperada:** O agente informa que não trata desse tipo de informação.
+  "Eu sou um assistente focado em controle de gastos e organização financeira. Posso ajudar você a acompanhar suas despesas ou planejar seu orçamento."
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Qual foi o meu maior gasto no ano de 2021?"
+- **Resposta esperada:** Se o sistema só tiver dados recentes, o agente informa que não possui dados desse período
+
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ---
 
@@ -53,10 +60,13 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- O auxilio ao controle de gastos
+- A maneira simples e direta com que é falado e explicado sobre o assunto
+- As dicas dadas
 
 **O que pode melhorar:**
-- [Liste aqui]
+- A maneira como é coletada os dados
+- O escopo 
 
 ---
 
